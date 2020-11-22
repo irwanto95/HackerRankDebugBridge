@@ -32,6 +32,12 @@
     <ClCompile Include="..\source\PracticeCPP\MessagesOrder.cpp">
       <Filter>source\PracticeCPP</Filter>
     </ClCompile>
+    <ClCompile Include="..\source\PracticeCPP\CamelCase.cpp">
+      <Filter>source\PracticeCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\PracticeCPP\HotelPrices.cpp">
+      <Filter>source\PracticeCPP</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\pch.h">
@@ -47,6 +53,12 @@
       <Filter>include\PracticeCPP</Filter>
     </ClInclude>
     <ClInclude Include="..\include\PracticeCPP\MessagesOrder.h">
+      <Filter>include\PracticeCPP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PracticeCPP\CamelCase.h">
+      <Filter>include\PracticeCPP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PracticeCPP\HotelPrices.h">
       <Filter>include\PracticeCPP</Filter>
     </ClInclude>
   </ItemGroup>

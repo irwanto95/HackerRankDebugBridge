@@ -1,6 +1,7 @@
 #include "pch.h"
 
 #include "PracticeCPP/OverloadingOstreamOperator.h"
+#define main() MAIN_ENTRY(OverloadingOstreamOperator)
 
 #include <iostream>
 #include <string>
@@ -30,7 +31,7 @@ ostream& operator<<(ostream& os, const Person& pr)
 	return os;
 }
 
-MAIN_ENTRY(OverloadingOstreamOperator)
+int main()
 {
 	string first_name, last_name, event;
 	cin >> first_name >> last_name >> event;

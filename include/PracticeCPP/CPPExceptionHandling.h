@@ -1,1 +1,1 @@
-MAIN_ENTRY(CPPExceptionHandling);
+int MAIN_ENTRY(CPPExceptionHandling);

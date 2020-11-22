@@ -1,1 +1,1 @@
-MAIN_ENTRY(OverloadingOstreamOperator);
+int MAIN_ENTRY(OverloadingOstreamOperator);

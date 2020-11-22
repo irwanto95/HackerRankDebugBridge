@@ -1,6 +1,7 @@
 #include "pch.h"
 
 #include "PracticeCPP/CPPExceptionHandling.h"
+#define main() MAIN_ENTRY(CPPExceptionHandling)
 
 #include <iostream>
 #include <stdexcept>
@@ -38,7 +39,7 @@ void process_input(int n)
 	cout << "returning control flow to caller" << endl;
 }
 
-MAIN_ENTRY(CPPExceptionHandling)
+int main()
 {
 	int n;
 	cin >> n;

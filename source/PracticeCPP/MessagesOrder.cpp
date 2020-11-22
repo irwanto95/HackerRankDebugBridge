@@ -1,6 +1,7 @@
 #include "pch.h"
 
 #include "PracticeCPP/MessagesOrder.h"
+#define main() MAIN_ENTRY(MessagesOrder)
 
 #include <iostream>
 #include <algorithm>
@@ -75,7 +76,7 @@ public:
 	}
 };
 
-MAIN_ENTRY(MessagesOrder)
+int main()
 {
 	MessageFactory message_factory;
 	Recipient recipient;

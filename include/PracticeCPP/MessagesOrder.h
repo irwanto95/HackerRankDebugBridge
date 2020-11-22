@@ -1,1 +1,1 @@
-MAIN_ENTRY(MessagesOrder);
+int MAIN_ENTRY(MessagesOrder);
