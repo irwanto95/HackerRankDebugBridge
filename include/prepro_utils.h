@@ -41,7 +41,12 @@ using namespace std;
 // 'file' is 'ifstream file'
 #define LaunchTask(task, stream)		LaunchTask1(task, stream)
 #define LaunchTask1(task, stream)		main_##task(stream)
+#ifdef USE_FILE_INPUT
 #define LaunchTaskF(task)				LaunchTask(task, file)
+#else
+#define LaunchTaskF(task)				LaunchTask(task)
+#endif // USE_FILE_INPUT
+
 
 
 #endif // PREPRO_UTILS_H
