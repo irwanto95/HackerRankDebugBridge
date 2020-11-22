@@ -9,6 +9,12 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
+    <Filter Include="include\PracticeCPP">
+      <UniqueIdentifier>{f5fcb12a-d15c-45af-8f6c-a539fca9e0c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\PracticeCPP">
+      <UniqueIdentifier>{09b7b035-61be-48c8-ac8a-a5f11a137556}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\source\pch.cpp">
@@ -17,6 +23,9 @@
     <ClCompile Include="..\source\HRDB.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="..\source\PracticeCPP\CPPExceptionHandling.cpp">
+      <Filter>source\PracticeCPP</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\pch.h">
@@ -24,6 +33,9 @@
     </ClInclude>
     <ClInclude Include="..\include\prepro_utils.h">
       <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PracticeCPP\CPPExceptionHandling.h">
+      <Filter>include\PracticeCPP</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

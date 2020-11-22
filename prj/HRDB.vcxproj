@@ -130,9 +130,11 @@
   <ItemGroup>
     <ClCompile Include="..\source\HRDB.cpp" />
     <ClCompile Include="..\source\pch.cpp" />
+    <ClCompile Include="..\source\PracticeCPP\CPPExceptionHandling.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\pch.h" />
+    <ClInclude Include="..\include\PracticeCPP\CPPExceptionHandling.h" />
     <ClInclude Include="..\include\prepro_utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,14 +1,17 @@
 #include "pch.h"
 
-#define HR_TaskFile CollosatronBuggy
-#include TaskHeader(GLDC/round_2, HR_TaskFile)
+#define HR_TaskFile CPPExceptionHandling
+#include TaskHeader(PracticeCPP, HR_TaskFile)
 
 #include <iomanip>
 
-int main() {
+int main()
+{
+	int result;
+
 	INPUT_OPEN;
 
-	int result = LaunchTaskF(HR_TaskFile);
+	result = LaunchTaskF(HR_TaskFile);
 
 	INPUT_CLOSE;
 

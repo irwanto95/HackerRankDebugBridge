@@ -20,12 +20,14 @@ if (!file.is_open())							\
 	return -1;									\
 };												\
 
-#define INPUT_CLOSE		file.close()
-#define					cin file
+#define INPUT_CLOSE				file.close()
+#define cin						file
+#define MAIN_ENTRY(FileName)	int main_##FileName##(ifstream & file)
 #else
-#define INPUT_OPEN		ifstream file
-#define INPUT_CLOSE		file.close()
-#define cin				std::cin
+#define INPUT_OPEN				ifstream file
+#define INPUT_CLOSE				file.close()
+#define cin						std::cin
+#define MAIN_ENTRY(FileName)	int main_##FileName##()
 #endif // USE_FILE_INPUT
 
 using namespace std;
