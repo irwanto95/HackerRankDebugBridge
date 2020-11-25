@@ -1,6 +1,6 @@
 #include "pch.h"
 
-#define HR_TaskFile HotelPrices
+#define HR_TaskFile MagicSpells
 #include TaskHeader(PracticeCPP, HR_TaskFile)
 
 #include <iomanip>
