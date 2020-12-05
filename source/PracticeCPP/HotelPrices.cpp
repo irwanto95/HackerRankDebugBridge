@@ -1,9 +1,7 @@
 #include "pch.h"
-
 #include "PracticeCPP/HotelPrices.h"
-#define main() MAIN_ENTRY(HotelPrices)
 
-#include <string>
+#define main() MAIN_ENTRY(HotelPrices)
 
 #include <iostream>
 #include <vector>

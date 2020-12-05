@@ -1,6 +1,6 @@
 #include "pch.h"
-
 #include "PracticeCPP/MessagesOrder.h"
+
 #define main() MAIN_ENTRY(MessagesOrder)
 
 #include <iostream>

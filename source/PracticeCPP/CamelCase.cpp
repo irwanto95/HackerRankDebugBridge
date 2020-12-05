@@ -1,9 +1,7 @@
 #include "pch.h"
-
 #include "PracticeCPP/CamelCase.h"
-#define main() MAIN_ENTRY(CamelCase)
 
-#include <string>
+#define main() MAIN_ENTRY(CamelCase)
 
 using namespace std;
 

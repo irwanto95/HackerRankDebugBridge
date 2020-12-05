@@ -1,9 +1,8 @@
 #include "pch.h"
-
 #include "PracticeCPP/MagicSpells.h"
+
 #define main() MAIN_ENTRY(MagicSpells)
 
-#include <string>
 #include <iostream>
 #include <algorithm>
 #include <vector>

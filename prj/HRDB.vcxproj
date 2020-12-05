@@ -131,6 +131,7 @@
     <ClCompile Include="..\source\HRDB.cpp" />
     <ClCompile Include="..\source\pch.cpp" />
     <ClCompile Include="..\source\PracticeCPP\CamelCase.cpp" />
+    <ClCompile Include="..\source\PracticeCPP\CPPClassTemplate.cpp" />
     <ClCompile Include="..\source\PracticeCPP\CPPExceptionHandling.cpp" />
     <ClCompile Include="..\source\PracticeCPP\HotelPrices.cpp" />
     <ClCompile Include="..\source\PracticeCPP\MagicSpells.cpp" />
@@ -140,6 +141,7 @@
   <ItemGroup>
     <ClInclude Include="..\include\pch.h" />
     <ClInclude Include="..\include\PracticeCPP\CamelCase.h" />
+    <ClInclude Include="..\include\PracticeCPP\CPPClassTemplate.h" />
     <ClInclude Include="..\include\PracticeCPP\CPPExceptionHandling.h" />
     <ClInclude Include="..\include\PracticeCPP\HotelPrices.h" />
     <ClInclude Include="..\include\PracticeCPP\MagicSpells.h" />

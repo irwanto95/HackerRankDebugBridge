@@ -1,6 +1,6 @@
 #include "pch.h"
 
-#define HR_TaskFile MagicSpells
+#define HR_TaskFile CPPClassTemplate
 #include TaskHeader(PracticeCPP, HR_TaskFile)
 
 #include <iomanip>

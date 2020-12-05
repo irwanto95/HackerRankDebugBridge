@@ -6,6 +6,8 @@
 
 #include <iostream>
 #include <fstream>
+#include <string>
+#include <chrono>
 
 #ifdef _WIN32
 #define USE_FILE_INPUT
@@ -47,6 +49,11 @@ using namespace std;
 #define LaunchTaskF(task)				LaunchTask(task)
 #endif // USE_FILE_INPUT
 
+#define CHRONO_START()	auto start = chrono::high_resolution_clock::now()
+#define CHRONO_FINISH()\
+auto stop = chrono::high_resolution_clock::now();\
+auto duration = chrono::duration_cast<chrono::milliseconds>(stop - start);\
+cout << endl << "Time taken by function: " << duration.count() << " milliseconds" << endl;\
 
 
 #endif // PREPRO_UTILS_H

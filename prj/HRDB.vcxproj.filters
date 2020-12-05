@@ -41,6 +41,9 @@
     <ClCompile Include="..\source\PracticeCPP\MagicSpells.cpp">
       <Filter>source\PracticeCPP</Filter>
     </ClCompile>
+    <ClCompile Include="..\source\PracticeCPP\CPPClassTemplate.cpp">
+      <Filter>source\PracticeCPP</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\pch.h">
@@ -65,6 +68,9 @@
       <Filter>include\PracticeCPP</Filter>
     </ClInclude>
     <ClInclude Include="..\include\PracticeCPP\MagicSpells.h">
+      <Filter>include\PracticeCPP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PracticeCPP\CPPClassTemplate.h">
       <Filter>include\PracticeCPP</Filter>
     </ClInclude>
   </ItemGroup>

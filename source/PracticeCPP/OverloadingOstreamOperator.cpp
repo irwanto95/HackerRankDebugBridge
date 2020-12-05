@@ -1,6 +1,6 @@
 #include "pch.h"
-
 #include "PracticeCPP/OverloadingOstreamOperator.h"
+
 #define main() MAIN_ENTRY(OverloadingOstreamOperator)
 
 #include <iostream>

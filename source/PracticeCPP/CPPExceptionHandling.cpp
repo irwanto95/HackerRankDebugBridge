@@ -1,6 +1,6 @@
 #include "pch.h"
-
 #include "PracticeCPP/CPPExceptionHandling.h"
+
 #define main() MAIN_ENTRY(CPPExceptionHandling)
 
 #include <iostream>
