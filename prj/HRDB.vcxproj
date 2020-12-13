@@ -134,6 +134,7 @@
     <ClCompile Include="..\source\PracticeCPP\CamelCase.cpp" />
     <ClCompile Include="..\source\PracticeCPP\CPPClassTemplate.cpp" />
     <ClCompile Include="..\source\PracticeCPP\CPPExceptionHandling.cpp" />
+    <ClCompile Include="..\source\PracticeCPP\CPPVariadics.cpp" />
     <ClCompile Include="..\source\PracticeCPP\HotelPrices.cpp" />
     <ClCompile Include="..\source\PracticeCPP\MagicSpells.cpp" />
     <ClCompile Include="..\source\PracticeCPP\MessagesOrder.cpp" />
@@ -146,6 +147,7 @@
     <ClInclude Include="..\include\PracticeCPP\CamelCase.h" />
     <ClInclude Include="..\include\PracticeCPP\CPPClassTemplate.h" />
     <ClInclude Include="..\include\PracticeCPP\CPPExceptionHandling.h" />
+    <ClInclude Include="..\include\PracticeCPP\CPPVariadics.h" />
     <ClInclude Include="..\include\PracticeCPP\HotelPrices.h" />
     <ClInclude Include="..\include\PracticeCPP\MagicSpells.h" />
     <ClInclude Include="..\include\PracticeCPP\MessagesOrder.h" />

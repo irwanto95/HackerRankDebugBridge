@@ -50,7 +50,7 @@ Available_Workshops* initialize(int start_time[], int duration[], int n)
 	}
 
 	/*	idea: https://www.hackerrank.com/challenges/attending-workshops/forum
-		owner: https://www.hackerrank.com/christosg8?hr_r=1
+		user: christosg8
 		url: https://en.wikipedia.org/wiki/Interval_scheduling#Greedy_polynomial_solution
 	*/
 	std::sort(worksops->mWorkshops

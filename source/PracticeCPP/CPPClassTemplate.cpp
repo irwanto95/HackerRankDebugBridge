@@ -13,10 +13,9 @@ using namespace std;
 
 /*Write the class AddElements here*/
 
-/*	got from:
-	discussion: https://www.hackerrank.com/challenges/c-class-templates/forum
-	comment from: flypixel
-	url: https://www.hackerrank.com/flypixel?hr_r=1
+/*	idea: https://www.hackerrank.com/challenges/c-class-templates/forum
+	user: flypixel
+	url:
 */
 #ifndef _WIN32
 int start_up()

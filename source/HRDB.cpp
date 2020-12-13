@@ -1,6 +1,6 @@
 #include "pch.h"
 
-#define HR_TaskFile AttendingWorkshops
+#define HR_TaskFile CPPVariadics
 #include TaskHeader(PracticeCPP, HR_TaskFile)
 
 #include <iomanip>
