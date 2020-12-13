@@ -53,6 +53,9 @@
     <ClCompile Include="..\source\PracticeCPP\CPPVariadics.cpp">
       <Filter>source\PracticeCPP</Filter>
     </ClCompile>
+    <ClCompile Include="..\source\PracticeCPP\BitArray.cpp">
+      <Filter>source\PracticeCPP</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\pch.h">
@@ -89,6 +92,9 @@
       <Filter>include\PracticeCPP</Filter>
     </ClInclude>
     <ClInclude Include="..\include\PracticeCPP\CPPVariadics.h">
+      <Filter>include\PracticeCPP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PracticeCPP\BitArray.h">
       <Filter>include\PracticeCPP</Filter>
     </ClInclude>
   </ItemGroup>

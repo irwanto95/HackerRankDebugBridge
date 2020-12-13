@@ -131,6 +131,7 @@
     <ClCompile Include="..\source\HRDB.cpp" />
     <ClCompile Include="..\source\pch.cpp" />
     <ClCompile Include="..\source\PracticeCPP\AttendingWorkshops.cpp" />
+    <ClCompile Include="..\source\PracticeCPP\BitArray.cpp" />
     <ClCompile Include="..\source\PracticeCPP\CamelCase.cpp" />
     <ClCompile Include="..\source\PracticeCPP\CPPClassTemplate.cpp" />
     <ClCompile Include="..\source\PracticeCPP\CPPExceptionHandling.cpp" />
@@ -144,6 +145,7 @@
   <ItemGroup>
     <ClInclude Include="..\include\pch.h" />
     <ClInclude Include="..\include\PracticeCPP\AttendingWorkshops.h" />
+    <ClInclude Include="..\include\PracticeCPP\BitArray.h" />
     <ClInclude Include="..\include\PracticeCPP\CamelCase.h" />
     <ClInclude Include="..\include\PracticeCPP\CPPClassTemplate.h" />
     <ClInclude Include="..\include\PracticeCPP\CPPExceptionHandling.h" />

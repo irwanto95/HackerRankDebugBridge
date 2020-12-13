@@ -1,6 +1,6 @@
 #include "pch.h"
 
-#define HR_TaskFile CPPVariadics
+#define HR_TaskFile BitArray
 #include TaskHeader(PracticeCPP, HR_TaskFile)
 
 #include <iomanip>
